@@ -12,4 +12,3 @@
 #while i < number + 1 :
 #    print(i)
 #    i += 1
- 
