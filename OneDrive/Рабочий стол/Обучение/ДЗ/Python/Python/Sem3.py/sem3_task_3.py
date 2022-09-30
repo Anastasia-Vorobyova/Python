@@ -4,8 +4,6 @@
 
 # - [1.1, 1.2, 3.1, 10.01] => 0.19
 
-# my_list = [1.1, 1.2, 3.1, 10.01]
-
 def mulitiplyArray(my_list):
     max_number = 0
     min_number = 1
@@ -16,4 +14,5 @@ def mulitiplyArray(my_list):
                 max_number = i - int(i)
     print(f"{max_number - min_number}")
 
+my_list = [1.1, 1.2, 3.1, 10.01]
 mulitiplyArray(my_list)
